@@ -8,6 +8,7 @@ body {
   width: auto;
   position: absolute;
   top: 50%;
+  -webkit-transform-origin: left center;
   transform-origin: left center;
   line-height: 100%;
 }

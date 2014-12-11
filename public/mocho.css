@@ -1,0 +1,15 @@
+/* line 1, /home/nsugimoto/hoge/mocho/src/css/mocho */
+body {
+  background: black;
+  color: pink; }
+
+/* line 7, /home/nsugimoto/hoge/mocho/src/css/mocho */
+.mocho-face {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  transform-origin: left center;
+  line-height: 100%; }
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1vY2hvLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBO0VBQ0UsWUFBWTtFQUNaLE9BQU87OztBQUlUO0VBQ0UsT0FBTztFQUNQLFVBQVU7RUFDVixLQUFLO0VBQ0wsa0JBQWtCO0VBQ2xCLGFBQWEiLCJmaWxlIjoiaW5kZXguY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIGJhY2tncm91bmQ6IGJsYWNrO1xuICBjb2xvcjogcGluaztcbn1cbi5tb2NobyB7XG59XG4ubW9jaG8tZmFjZSB7XG4gIHdpZHRoOiBhdXRvO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogNTAlO1xuICB0cmFuc2Zvcm0tb3JpZ2luOiBsZWZ0IGNlbnRlcjtcbiAgbGluZS1oZWlnaHQ6IDEwMCU7XG59XG4iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0= */

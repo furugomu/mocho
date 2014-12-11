@@ -2,9 +2,11 @@ gulp = require 'gulp'
 sass = require 'gulp-sass'
 rename = require 'gulp-rename'
 browserify = require 'browserify'
+streamify = require 'gulp-streamify'
 browserSync = require 'browser-sync'
 source = require 'vinyl-source-stream'
 sourcemaps = require 'gulp-sourcemaps'
+uglify = require 'gulp-uglify'
 
 gulp.task 'default', ['build']
 
@@ -22,6 +24,7 @@ gulp.task 'js', ->
     debug: true
   .bundle()
   .pipe source 'mocho.js'
+  .pipe streamify uglify()
   .pipe gulp.dest './public'
 
 gulp.task 'css', ->

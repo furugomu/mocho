@@ -9,6 +9,7 @@ zoom = ->
 
 zoom()
 
-window.addEventListener 'resize', ->
-  zoom()
-, false
+$(window).on 'resize', -> zoom()
+
+$(document).on 'click', ->
+  location.href = 'http://ameblo.jp/asakuramomoblog/'

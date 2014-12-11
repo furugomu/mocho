@@ -26,9 +26,7 @@ gulp.task 'js', ->
 
 gulp.task 'css', ->
   gulp.src './src/css/index.scss'
-  .pipe sourcemaps.init()
   .pipe sass()
-  .pipe sourcemaps.write()
   .pipe rename 'mocho.css'
   .pipe gulp.dest './public'
 

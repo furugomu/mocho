@@ -1,11 +1,11 @@
-mocho = document.getElementById('mocho-face')
-container = document.getElementById('container')
+$ = require 'jquery'
+
+mocho = $('#mocho-face')
+container = $('#container')
 
 zoom = ->
-  scale = container.offsetWidth / mocho.offsetWidth
-  height = mocho.offsetHeight
-  console.log 'height', mocho.offsetHeight, height
-  mocho.style.transform = "scale(#{scale}, #{scale}) translateY(-50%)"
+  scale = container.width() / mocho.width()
+  mocho.css 'transform', "scale(#{scale}, #{scale}) translateY(-50%)"
 
 zoom()
 
